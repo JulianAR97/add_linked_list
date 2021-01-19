@@ -25,7 +25,7 @@ def add_two_numbers(l1, l2)
     head -= 10 
   end
 
-  # Root is the linked list. Techinally it is just a node, but no node points to class 
+  # Root is the linked list. Techinally it is just a node, but no node points to it 
   # But it points to a node, which in turn points to another node etc. 
   root = ListNode.new(head)
   # Initialize last at root because we start with one node
